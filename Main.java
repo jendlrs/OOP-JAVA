@@ -15,5 +15,14 @@ public class Main {
         Lizard lizard = new Lizard("Raplo", 4, "Male");
         lizard.displayInfo();
         lizard.speak();
+
+        Eagle eagle = new Eagle("Artemis", 21, "Female");
+        eagle.displayInfo();
+        eagle.speak();
+
+        Parrot parrot = new Parrot("Polly", 4, "Female");
+        parrot.displayInfo();
+        parrot.speak();
+        
     }
 }
