@@ -3,12 +3,12 @@ public class Lion extends Mammal {
         super(name, age, gender);
     }
 
-    //@Override
+    //Override Speak Method
     public void speak() {
-        System.out.println("The lion roars!");
+        System.out.println("Roar! Roar!");
     }
 
-    //@Override
+    //Override Display Method
     public void displayInfo() {
         System.out.println("Lion - Name: " + getName() + ", Age: " + getAge() + ", Gender: " + getGender());
     }
