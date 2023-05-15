@@ -6,4 +6,14 @@ public abstract class Mammal extends Animal {
     public Mammal(String name, int age, String gender) {
         super(name, age, gender);
     }
+
+    //Override Speak Method
+    public void speak() {
+        System.out.println("Mammal makes sound");
+    }
+
+    //Override Display Method
+    public void displayInfo() {
+        System.out.println("Mammal info - Name: " + getName() + ", Age: " + getAge() + ", Gender: " + getGender());
+    }
 }
