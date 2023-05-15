@@ -7,13 +7,13 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.print("\n"); //Empty Line
-        
+
         Lion lion = new Lion("Mufasa", 5, "Male");
         Elephant elephant = new Elephant("Adira", 13, "Female");
         Snake snake = new Snake("Nagini", 9, "Male");
         Lizard lizard = new Lizard("Raplo", 4, "Male");
         Eagle eagle = new Eagle("Artemis", 21, "Female");
-        Parrot parrot = new Parrot("Polly", 4, "Female");
+        Parrot parrot = new Parrot("Sparkle", 4, "Female");
 
         lion.displayInfo();
         lion.speak();
