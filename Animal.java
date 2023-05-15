@@ -19,4 +19,30 @@ abstract class Animal {
     public abstract void speak();
 
     public abstract void displayInfo();
+
+    //Getter and Setter Methods for properties
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
 }
