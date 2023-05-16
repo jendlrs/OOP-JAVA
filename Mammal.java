@@ -9,11 +9,11 @@ public abstract class Mammal extends Animal {
 
     //Override Speak Method
     public void speak() {
-        System.out.println("Mammal makes sound");
+        System.out.println("The mammal makes a sound loudly");
     }
 
     //Override Display Method
     public void displayInfo() {
-        System.out.println("Mammal info - Name: " + getName() + ", Age: " + getAge() + ", Gender: " + getGender());
+        System.out.println("Mammal - Name: " + getName() + ", Age: " + getAge() + ", Gender: " + getGender());
     }
 }

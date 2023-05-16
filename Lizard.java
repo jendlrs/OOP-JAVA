@@ -5,7 +5,7 @@ public class Lizard extends Reptile {
 
     //Override Speak Method
     public void speak() {
-        System.out.println("Bzzt! Bzzt");
+        System.out.println("Bzzt! Bzzt!"); //specific sound
     }
 
     //Override Display Method

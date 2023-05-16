@@ -5,7 +5,7 @@ public abstract class Bird extends Animal {
 
     //Override Speak Method 
     public void speak() {
-        System.out.println("The bird chirps.");
+        System.out.println("The bird chirps cheerfully.");
     }
 
     //Override Display Method

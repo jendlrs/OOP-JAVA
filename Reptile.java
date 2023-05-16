@@ -5,7 +5,7 @@ public abstract class Reptile extends Animal {
 
     //Override Speak Method
     public void speak() {
-        System.out.println("The reptile hisses.");
+        System.out.println("The reptile hisses sinisterly.");
     }
 
     //Override Display Method
